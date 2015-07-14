@@ -13,4 +13,4 @@ script:
   - phpunit
 
 notifications:
-  slack: mercari:oyDHhpauwDLXPvDsFVGaMOCg
+  slack: mercari:maGUctUC7sBBb3XjXeUxAfHE
