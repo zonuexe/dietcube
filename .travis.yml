@@ -4,6 +4,8 @@ sudo: false
 
 php:
   - 5.6
+  - 7.0
+  - hhvm
 
 before_script:
   - composer install
@@ -14,3 +16,7 @@ script:
 
 notifications:
   slack: mercari:maGUctUC7sBBb3XjXeUxAfHE
+
+matrix:
+  allow_failures:
+    - php: hhvm
